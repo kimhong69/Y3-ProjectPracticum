@@ -1,42 +1,242 @@
 [
-        {
-            "title": "The Adventures of Ten",
-            "desc": "Join a group of ten friends as they embark on exciting adventures in their neighborhood."
-        },
-        {
-            "title": "Ten Little Caterpillars",
-            "desc": "Follow the journey of ten caterpillars as they transform into beautiful butterflies."
-        },
-        {
-            "title": "Ten Apples Up On Top!",
-            "desc": "Have fun counting apples with a playful monkey in this interactive book."
-        },
-        {
-            "title": "Ten Black Dots",
-            "desc": "Discover the creative possibilities of ten black dots in this imaginative story."
-        },
-        {
-            "title": "Ten, Nine, Eight",
-            "desc": "Learn to count backwards from ten with a soothing bedtime story."
-        },
-        {
-            "title": "Ten Tiny Toes",
-            "desc": "Celebrate the joy of tiny toes with adorable animal illustrations."
-        },
-        {
-            "title": "Ten in the Bed",
-            "desc": "Enjoy a silly counting rhyme about ten animals in a bed."
-        },
-        {
-            "title": "The Ten Best Things About Messes",
-            "desc": "Explore the fun side of messes with a group of playful children."
-        },
-        {
-            "title": "How Do Dinosaurs Count to Ten?",
-            "desc": "Learn about dinosaurs and counting with this educational book."
-        },
-        {
-            "title": "Ten Playful Penguins",
-            "desc": "Meet ten playful penguins as they slide, swim, and have fun in the snow."
-        }
+  {
+    "id": 1,
+    "title": "The Alchemist",
+    "description": "A journey of self-discovery and adventure across the desert.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780061122415-M.jpg",
+    "price": 13.99,
+    "genre": "Adventure",
+    "author": "Paulo Coelho",
+    "published": "1988",
+    "rating": 4.7,
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "description": "A dystopian novel set in a totalitarian society under constant surveillance.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780451524935-M.jpg",
+    "price": 9.99,
+    "genre": "Dystopian",
+    "author": "George Orwell",
+    "published": "1949",
+    "rating": 4.6,
+    "stock": 40
+  },
+  {
+    "id": 3,
+    "title": "To Kill a Mockingbird",
+    "description": "A gripping novel about racial injustice in the Deep South.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780060935467-M.jpg",
+    "price": 14.99,
+    "genre": "Classic",
+    "author": "Harper Lee",
+    "published": "1960",
+    "rating": 4.8,
+    "stock": 50
+  },
+  {
+    "id": 4,
+    "title": "Pride and Prejudice",
+    "description": "A classic novel about manners, marriage, and misunderstandings.",
+    "img": "https://covers.openlibrary.org/b/isbn/9781503290563-M.jpg",
+    "price": 11.50,
+    "genre": "Romance",
+    "author": "Jane Austen",
+    "published": "1813",
+    "rating": 4.5,
+    "stock": 30
+  },
+  {
+    "id": 5,
+    "title": "The Hobbit",
+    "description": "Bilbo Baggins embarks on an epic adventure to reclaim a lost kingdom.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780547928227-M.jpg",
+    "price": 15.00,
+    "genre": "Fantasy",
+    "author": "J.R.R. Tolkien",
+    "published": "1937",
+    "rating": 4.7,
+    "stock": 60
+  },
+  {
+    "id": 6,
+    "title": "Fahrenheit 451",
+    "description": "A dystopian novel about a future where books are outlawed and 'firemen' burn them.",
+    "img": "https://covers.openlibrary.org/b/isbn/9781451673319-M.jpg",
+    "price": 12.00,
+    "genre": "Science Fiction",
+    "author": "Ray Bradbury",
+    "published": "1953",
+    "rating": 4.4,
+    "stock": 45
+  },
+  {
+    "id": 7,
+    "title": "Moby-Dick",
+    "description": "The saga of Captain Ahab’s obsessive quest to kill a giant white whale.",
+    "img": "https://covers.openlibrary.org/b/isbn/9781503280786-M.jpg",
+    "price": 13.50,
+    "genre": "Adventure",
+    "author": "Herman Melville",
+    "published": "1851",
+    "rating": 4.0,
+    "stock": 20
+  },
+  {
+    "id": 8,
+    "title": "War and Peace",
+    "description": "A vast epic about Napoleon’s invasion of Russia and its impact on society.",
+    "img": "https://covers.openlibrary.org/b/isbn/9781853260629-M.jpg",
+    "price": 18.00,
+    "genre": "Historical",
+    "author": "Leo Tolstoy",
+    "published": "1869",
+    "rating": 4.3,
+    "stock": 15
+  },
+  {
+    "id": 9,
+    "title": "The Catcher in the Rye",
+    "description": "The story of teenage Holden Caulfield’s struggles with identity and belonging.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780316769488-M.jpg",
+    "price": 10.99,
+    "genre": "Classic",
+    "author": "J.D. Salinger",
+    "published": "1951",
+    "rating": 4.1,
+    "stock": 40
+  },
+  {
+    "id": 10,
+    "title": "Jane Eyre",
+    "description": "A young woman’s journey of growth, love, and moral integrity.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780141441146-M.jpg",
+    "price": 12.50,
+    "genre": "Gothic",
+    "author": "Charlotte Brontë",
+    "published": "1847",
+    "rating": 4.5,
+    "stock": 35
+  },
+  {
+    "id": 11,
+    "title": "The Lord of the Rings",
+    "description": "An epic fantasy adventure in Middle-earth to destroy a powerful ring.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780618640157-M.jpg",
+    "price": 25.00,
+    "genre": "Fantasy",
+    "author": "J.R.R. Tolkien",
+    "published": "1954",
+    "rating": 4.9,
+    "stock": 80
+  },
+  {
+    "id": 12,
+    "title": "The Grapes of Wrath",
+    "description": "A family’s struggle during the Great Depression in America.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780143039433-M.jpg",
+    "price": 14.00,
+    "genre": "Historical",
+    "author": "John Steinbeck",
+    "published": "1939",
+    "rating": 4.2,
+    "stock": 25
+  },
+  {
+    "id": 13,
+    "title": "Animal Farm",
+    "description": "An allegorical novella about the rise of totalitarianism.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780451526342-M.jpg",
+    "price": 9.00,
+    "genre": "Political Satire",
+    "author": "George Orwell",
+    "published": "1945",
+    "rating": 4.4,
+    "stock": 50
+  },
+  {
+    "id": 14,
+    "title": "Great Expectations",
+    "description": "The growth and personal development of an orphan named Pip.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780141439563-M.jpg",
+    "price": 11.75,
+    "genre": "Classic",
+    "author": "Charles Dickens",
+    "published": "1861",
+    "rating": 4.1,
+    "stock": 30
+  },
+  {
+    "id": 15,
+    "title": "Crime and Punishment",
+    "description": "A psychological exploration of guilt and redemption.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780143058144-M.jpg",
+    "price": 13.25,
+    "genre": "Philosophical",
+    "author": "Fyodor Dostoevsky",
+    "published": "1866",
+    "rating": 4.6,
+    "stock": 20
+  },
+  {
+    "id": 16,
+    "title": "The Odyssey",
+    "description": "The epic journey of Odysseus returning home after the Trojan War.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780140268867-M.jpg",
+    "price": 14.50,
+    "genre": "Epic",
+    "author": "Homer",
+    "published": "8th Century BC",
+    "rating": 4.3,
+    "stock": 25
+  },
+  {
+    "id": 17,
+    "title": "Dracula",
+    "description": "A Gothic horror story about the vampire Count Dracula.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780141439846-M.jpg",
+    "price": 10.00,
+    "genre": "Horror",
+    "author": "Bram Stoker",
+    "published": "1897",
+    "rating": 4.0,
+    "stock": 40
+  },
+  {
+    "id": 18,
+    "title": "Frankenstein",
+    "description": "A scientist’s creation of a living being and its tragic consequences.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780486282114-M.jpg",
+    "price": 9.50,
+    "genre": "Horror",
+    "author": "Mary Shelley",
+    "published": "1818",
+    "rating": 4.2,
+    "stock": 35
+  },
+  {
+    "id": 19,
+    "title": "The Picture of Dorian Gray",
+    "description": "A man sells his soul to stay forever young.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780141439570-M.jpg",
+    "price": 11.00,
+    "genre": "Philosophical",
+    "author": "Oscar Wilde",
+    "published": "1890",
+    "rating": 4.1,
+    "stock": 40
+  },
+  {
+    "id": 20,
+    "title": "Les Misérables",
+    "description": "A sprawling tale of justice, love, and redemption in 19th-century France.",
+    "img": "https://covers.openlibrary.org/b/isbn/9780451419439-M.jpg",
+    "price": 19.99,
+    "genre": "Historical",
+    "author": "Victor Hugo",
+    "published": "1862",
+    "rating": 4.6,
+    "stock": 30
+  }
 ]

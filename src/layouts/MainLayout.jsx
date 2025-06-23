@@ -2,13 +2,21 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+
 const Mainlayout = () => {
   return (
-    <>  
-        <Navbar/>
+    <div className="min-h-screen flex flex-col">
+      {/* Navbar stays on top */}
+      <Navbar />
+
+      {/* Main content fills available space */}
+      <main className="flex-1">
         <Outlet />
-        <Footer/>
-    </>
+      </main>
+
+      {/* Footer always at the bottom */}
+      <Footer year={new Date().getFullYear()}/>
+    </div>
   )
 }
 
