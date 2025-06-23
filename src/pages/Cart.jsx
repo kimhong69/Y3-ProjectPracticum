@@ -91,8 +91,6 @@ const Cart = () => {
                 </h1>
               </div>
               <div className='shadow-sm mt-4 rounded-md p-4 bg-white'>
-                <h2 className='text-lg font-semibold mb-4'>Order Summary</h2>
-
                 {(() => {
                   const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
                   const discount = subtotal * 0.1; // You can update this dynamically
